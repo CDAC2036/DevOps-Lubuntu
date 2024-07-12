@@ -1,0 +1,7 @@
+services:
+  apache:
+    image: httpd:2.4
+    ports:
+    - "80:80"
+    volumes:
+    - ./myapp:/usr/local/apache2/htdocs/

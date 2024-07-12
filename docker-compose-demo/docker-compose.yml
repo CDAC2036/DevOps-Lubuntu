@@ -1,0 +1,5 @@
+services:
+  python-hello-world:
+    build: .
+    container_name: python-hello-world-container
+    command: ["python","hello.py"]
